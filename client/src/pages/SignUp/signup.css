@@ -1,0 +1,76 @@
+.SignupContainer{
+    width: 100%;
+    /* height: 100vh; */
+}
+.Signupform{
+    margin: auto;
+    background: var(--planCard);
+    padding: 2rem 1rem;
+    text-align: center;
+    width: 350px;
+    position: relative;
+}
+.form-Heading{
+    color: white;
+    margin-top: -1rem;
+    font-style: italic;
+}
+.Signupform>form>{
+    position: relative;
+}
+.Signupform>form>div{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Signupform>form>div>:nth-child(1){
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+}
+.Signupform>form>div>:nth-child(2){
+    height: 30px;
+    background-color: #383737;
+    border: 3px solid var(--orange);
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: var(--orange);
+    font-weight: 600;
+    font-size: 16px;
+    width: 180px;
+}
+.Signupform>form>span{
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    border-radius: 50%;
+    margin: auto;
+}
+.icon{
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    top: 9rem;
+    right: 9rem;
+}
+.Signupform>form>:last-child{
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0;
+}
+.Signupform>form>:last-child button{
+    background-color: #333;
+    border: none;
+    padding: 5px 15px;
+    color: var(--orange);
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.Signupform a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}

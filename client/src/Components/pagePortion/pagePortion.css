@@ -1,0 +1,25 @@
+.portion-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -7rem;
+}
+.progress-heading{
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-right: 10rem;
+}
+.best-pp{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+}
+.heart-pp{
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+}

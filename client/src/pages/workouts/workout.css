@@ -1,0 +1,150 @@
+.searchAndButtons {
+    margin-top: -5rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 2rem;
+}
+
+.searchworkout {
+    width: 500px;
+}
+
+.btns {
+    width: 9rem;
+    background: var(--planCard);
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.menuSelect.css-1ualgfl-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-icon.MuiSelect-iconOutlined.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+    color: white;
+}
+
+.menuSelect {
+    font-weight: 500;
+    width: 8rem;
+    font-size: 12px;
+    letter-spacing: 2px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+}
+
+.menuItems {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.menuSelect:hover {
+    outline: none;
+}
+
+.addWorkout {
+    background: var(--planCard);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.boxStyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400;
+    background: var(--planCard);
+    border: 2px solid var(--darkGrey);
+    box-shadow: 24;
+    padding: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.boxStyle>h1 {
+    color: white;
+    text-align: center;
+    margin-top: -1rem;
+    font-style: italic;
+}
+
+.boxStyle div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.boxStyle div>label {
+    font-weight: 600;
+    color: white;
+}
+
+.boxStyle div>input {
+    height: 25px;
+    background-color: #383737;
+    border: 3px solid var(--orange);
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: var(--orange);
+    font-weight: 600;
+    font-size: 16px;
+    width: 200px;
+}
+
+.categorySelect {
+    background-color: #383737;
+    border: 3px solid var(--orange);
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.categorySelect.css-1ualgfl-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    color: var(--orange);
+    font-size: 16px;
+    font-weight: bold;
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    width: 218px;
+}
+.boxStyle div>textarea{
+    background-color: #383737;
+    border: 3px solid var(--orange);
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    color: var(--orange);
+    font-weight: 600;
+    font-size: 16px;
+    width: 200px;
+}
+.boxStyle div:last-child{
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.boxStyle div:last-child button{
+    background-color: #333;
+    border: none;
+    color: orange;
+    padding: 5px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    font-style: italic;
+}

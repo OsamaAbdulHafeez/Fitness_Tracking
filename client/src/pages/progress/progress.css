@@ -1,0 +1,9 @@
+.blurparent{
+    display: flex;
+    justify-content: space-between;
+}
+.blur-p-1{
+    height: 30rem;
+    width: 23rem;
+    left: 0;
+}

@@ -1,0 +1,88 @@
+.meters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: -5rem;
+    margin-bottom: -5rem;
+}
+.meters>.card{
+    width: 20%;
+    height: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: 0.3s;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    background: var(--planCard);
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.card-header-box{
+    display: flex;
+    flex-direction: column;
+    min-width: 49%;
+    background-color: white;
+    aspect-ratio: 1/1;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    position: relative;
+}
+.card-header-box-name{
+    font-size: 14px;
+    font-weight: bold;
+}
+.card-header-box-value{
+    font-size: 16px;
+    color: #333;
+}
+.card>button{
+    background-color: white;
+    color: #333;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.card>button:hover{
+    color: white;
+    background-color: #333;
+}
+.ch-blur-1{
+    width: 150px;
+    height: 150px;
+    background: rgb(233, 97, 97);
+    filter: blur(100px);
+    z-index: 2;
+}
+.ch-blur-2{
+    width: 150px;
+    height: 150px;
+    background: var(--orange);
+    filter: blur(100px);
+    z-index: 2;
+}
+.textincircle{
+    color: #333;
+    font-weight: 700;
+}

@@ -1,0 +1,57 @@
+.mealCardContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2rem;
+}
+.mealCard {
+    border: 2px solid var(--orange);
+    width: 20%;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background: var(--planCard);
+}
+.meal-header {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+.mealCardDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mealCardDetails>div {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.mealCardDetails>div>:nth-child(1) {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    font-style: italic;
+}
+
+.mealCardDetails>div>:nth-child(2) {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    font-style: italic;
+}
+.mealCardDetails input{
+    width: 15px;
+    height: 15px;
+    background-color: #333;
+    outline: none;
+}
+.mealCardDetails>:last-child button{
+    border: none;
+    color: var(--orange);
+    background-color: #333;
+    margin-left: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

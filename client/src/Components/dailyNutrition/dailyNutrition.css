@@ -1,0 +1,56 @@
+.DailyNutritionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2rem;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.DailyNutrition-card {
+    border: 2px solid var(--orange);
+    width: 20%;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background: var(--planCard);
+    padding-bottom: 2rem;
+}
+.DailyNutritionDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.DailyNutritionDetails>div {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.DailyNutritionDetails>div>:nth-child(1){
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    margin-left: 10px;
+}
+.DailyNutritionDetails>div>:nth-child(2) {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    font-style: italic;
+    margin-right: 10px;
+}
+.DailyNutritionDetails>a{
+    margin: auto;
+}
+.DailyNutritionDetails>a>button{
+    background-color: #333;
+    color: var(--orange);
+    border: none;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 16px;
+    width: fit-content;
+}

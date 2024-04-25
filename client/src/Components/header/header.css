@@ -1,0 +1,106 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+.search-menu{
+    display: flex;
+}
+.menu-List{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    /* display: none; */
+}
+.menu-List>:link{
+    text-decoration: none;
+    color: white;
+}
+a li{
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+}
+a li:hover{
+    color: var(--orange);
+}
+.search{
+    width: 400px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.search>input{
+    background: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.search>input::placeholder{
+    color: white;
+    font-size: 16px;
+}
+.search>button{
+    background: var(--planCard);
+    color: white;
+    border: none;
+    height: 35px;
+    padding: 0px 30px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bars{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.close{
+    position: absolute;
+    right: 1rem;
+    top: 3rem;
+}
+
+@media screen and (max-width:768px){
+    .search{
+        align-self: center;
+    }
+    .search-menu{
+        position: fixed;
+        right: 2rem;
+        z-index: 99;
+        top: 2rem;
+    }
+    .menu-List{   
+        flex-direction: column;
+        background-color: var(--appColor);
+        padding: 2rem;
+        right: 2rem;
+    }
+    /* .burger{
+        display: block;
+    } */
+}
+@media screen and (max-width:680px){
+    /* .header{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .search{
+        width: 300px;
+    } */
+}
